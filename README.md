@@ -1,2 +1,2 @@
 # college-Dsa
-Author - Someshwar Gupta
+Author - Someshwar Prasad Gupta
