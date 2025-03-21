@@ -1,0 +1,29 @@
+package TwoDimentionalArray;
+//int this problem we will transpose the given matrix and stored in same matrix with the help of swapping without creating
+//extra matrix , it is possible in only square matrix
+public class TransformintoTranspose {
+    public static void print(int[][] arr){
+        int m=arr.length;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<m;j++){
+                System.out.print(arr[i][j]+" ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+    public static void main(String[] args) {
+        int[][] arr={{1,2,3},{4,5,6},{7,8,9}};
+        int m=arr.length;
+        print(arr);
+        //transpose in same matrix
+        for(int i=0;i<m;i++){
+            for(int j=0;j<=i;j++){
+                int temp=arr[i][j];
+                arr[i][j]=arr[j][i];
+                arr[j][i]=temp;
+            }
+        }
+        print(arr);
+    }
+}
