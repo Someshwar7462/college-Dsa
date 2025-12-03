@@ -1,6 +1,6 @@
 package Arrays;
 
-public class mergetwosoretdarray {
+public class   mergetwosoretdarray {
     public static void main(String[] args) {
         int[] arr = {12, 34, 56, 79, 97, 100};
         int[] brr = {67, 78, 89, 91, 94};

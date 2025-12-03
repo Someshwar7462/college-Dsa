@@ -8,7 +8,7 @@ public class rotatearraybyksteps {
             System.out.print(arr[i]+" ");
         }
         int[] ans=new int[n];
-        int k=9;
+        int k=3;
         k=k%n;
         for(int i=n-k,j=0;i<n;i++,j++){
             ans[j]=arr[i];

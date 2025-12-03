@@ -11,6 +11,6 @@ public class passingaraytomethod {
         System.out.println(arr[0]);
         changearray(arr);
        System.out.println(arr[0]);
-       //whe array passing to method then pass by reference is occured means value will be changed
+       //when array passing to method then pass by reference is occured means value will be changed
     }
 }
