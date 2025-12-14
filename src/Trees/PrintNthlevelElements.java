@@ -3,11 +3,11 @@ package Trees;
 import java.util.Scanner;
 
 public class PrintNthlevelElements {
-    public static void NthelevelElements(Node root,int level,int n){
+    public static void NthelevelElements(Node root,int currLevel,int n){
         if(root==null) return;
-        if(level==n) System.out.print(root.val+" ");
-        NthelevelElements(root.left,level+1,n);
-        NthelevelElements(root.right,level+1,n);
+        if(currLevel==n) System.out.print(root.val+" ");
+        NthelevelElements(root.left,currLevel+1,n);
+        NthelevelElements(root.right,currLevel+1,n);
 
     }
     public static void main(String[] args) {
