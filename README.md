@@ -110,7 +110,7 @@ Maintain a consistent DSA learning journey
 
 Clone the repository
 
-git clone https://github.com/your-username/DSA-Java.git
+git clone (https://github.com/Someshwar7462/college-Dsa)
 
 
 Open in any Java-supported IDE
