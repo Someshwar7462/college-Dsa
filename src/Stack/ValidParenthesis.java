@@ -2,7 +2,7 @@ package Stack;
 import java.util.Stack;
 public class ValidParenthesis {
     public static boolean isValid(String s){
-        Stack<Character> st=new Stack();
+        Stack<Character> st=new Stack<>();
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
             if(ch=='(' || ch=='{' || ch=='[') st.push(ch);
@@ -22,5 +22,6 @@ public class ValidParenthesis {
         System.out.println(isValid("(]"));      // false
         System.out.println(isValid("([)]"));    // false
         System.out.println(isValid("{[]}"));    // true
+        System.out.println(isValid("[({)}]"));
     }
 }
